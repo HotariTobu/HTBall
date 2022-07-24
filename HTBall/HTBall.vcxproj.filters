@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Input">
+      <UniqueIdentifier>{f6173f7a-4aee-411a-9195-121d0662c693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Draw">
+      <UniqueIdentifier>{27ede725-abaa-4617-bd5f-fb7bc467a7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Update">
+      <UniqueIdentifier>{5939f182-33d4-4c8a-bc5c-41a1bbd1b511}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Reset.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialize.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispose.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Screenshot.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyInput.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInput.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawInfo.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBall.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRing.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBlock.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawShotLine.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawStageLine.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawGameover.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawHelp.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDebug.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>ソース ファイル\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateInfo.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateColor.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateMouse.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateLevel.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateRingSize.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateFallingRing.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateInstantaneous.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateStandingBall.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateMovingBall.cpp">
+      <Filter>ソース ファイル\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Defines.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HTBall.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

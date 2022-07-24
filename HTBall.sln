@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HTBall", "HTBall\HTBall.vcxproj", "{BAB39463-E816-4FD0-83E7-8A7D63E49862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Debug|x64.ActiveCfg = Debug|x64
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Debug|x64.Build.0 = Debug|x64
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Debug|x86.Build.0 = Debug|Win32
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Release|x64.ActiveCfg = Release|x64
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Release|x64.Build.0 = Release|x64
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Release|x86.ActiveCfg = Release|Win32
+		{BAB39463-E816-4FD0-83E7-8A7D63E49862}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61CAAB21-0039-4E6B-9835-790C4285D914}
+	EndGlobalSection
+EndGlobal
