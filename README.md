@@ -26,7 +26,7 @@ You can play by just clicking the `.exe` file.
 
 ## Install
 
-PLace anywhere you like.
+Place anywhere you like.
 
 ## Contribution
 
